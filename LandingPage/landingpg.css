@@ -1,0 +1,159 @@
+html{
+    scroll-behavior: smooth;
+}
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    /* .logo{
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgb(245, 196, 255);
+  
+    } */   
+    header {
+      color: white;
+      text-align: center;
+      padding: 50px;
+      background-image: linear-gradient(to right,#2D03D9,#8904D8);
+
+      /* background-image: url("bg1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; */
+      
+  
+    }
+    header h1{
+        font-size: 50px;
+    }
+    input {
+        width: 30%;
+        padding: 20px 20px;
+        margin: 8px 0;
+        /* display: inline-block; */
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      #next-button {
+      
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 25px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    #why-choose-us{
+        padding: 20px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-image: linear-gradient(to right,#2D03D9,#8904D8);
+   
+
+    }
+#why-choose-us .feature{
+    padding: 30px;
+    display: flex;
+    font-size: 20px;
+}
+
+.feature #f1{
+    width: 50%;
+
+}
+.feature #f2{
+    width: 50%;
+    }
+.feature img{
+ 
+        width: 285px;
+        height: 320px;
+        object-fit: fill;
+        border-radius: 5px;
+      
+}
+.features {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-around;
+      padding: 30px;
+      
+    }
+    
+    .features .feature {
+      text-align: center;
+      max-width: 300px;
+    }
+    
+    .features .feature img {
+      /* max-width: 300px; */
+      height: 250px;
+      object-fit: cover;
+      width: 230px;
+      border-radius: 5px;
+      
+    }
+    .f1,.f2,.f3{
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      transition: .7;
+    }
+  
+  
+    .f1:hover,.f2:hover ,.f3:hover {
+      transform: scale(1.2);
+      z-index: 0;
+    }
+#why-choose-us .feature {
+      text-align: center;
+      padding: 50px;
+  }
+    .explore{
+      text-align: center;
+    margin-top: 30px;}
+  
+      .explore button{
+      font-size: 25px;
+      background-color: black;
+      color: rgb(255, 255, 255);
+      border: none;
+      padding: 15px;
+      border-radius: 3px;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 30px;
+    }
+
+    #testimonials{
+      color: white;
+      text-align: center;
+      padding: 50px;
+      background-color: rgb(0, 0, 0);
+    }
+    .additional{
+      background-color: rgb(245, 196, 255);
+      display: flex;
+      padding: 50px;
+     
+      
+    }
+    .s1{
+      width: 30%;
+      text-align: justify;
+    }
+    .services{
+      margin-left: 20px;
+    }
+   
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgb(243,234,229);
+    }
+    
